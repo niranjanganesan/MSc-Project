@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171b26;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #9fa6b7;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', 'sans-serif';
+  text-transform: uppercase;
+}
+
+li img {
+  position: absolute;
+  height: 2rem;
+  width: auto;
+  left: 96%;
+  top: 2%
+}

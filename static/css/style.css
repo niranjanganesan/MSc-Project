@@ -1,0 +1,136 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  position: absolute;
+  left: 65%;
+  top: 10%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  background-color: #171b26;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 68%;
+  left: 67%;
+  z-index: 5;
+  background-color: #fff;
+  /* padding: 5px; */
+  /* border: 0.5px solid #999; */
+  text-align: center;
+  font-family: 'Roboto', 'sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#text-1 {
+  position: absolute;
+  display: block;
+  color: #9fa6b7;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', 'sans-serif';
+  text-transform: uppercase;
+}
+
+#text-2 {
+  position: absolute;
+  display: block;
+  color: #9fa6b7;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', 'sans-serif';
+  text-transform: uppercase;
+  left: 83%;
+}
+
+#logo {
+  position: absolute;
+  height: 2rem;
+  width: auto;
+  left: 95%;
+  top: 2%;
+}
+
+#form-list {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  color: #7b7d8d;
+  border-radius: 4px;
+  background-color: #171b26;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#countryId, #stateId, #cityId {
+  color: #7b7d8d;
+  border-radius: 4px;
+  background-color: #171b26;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#submit-button {
+  color: white;
+  border-radius: 4px;
+  background-color: #171b26;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#country-text {
+  position: absolute;
+  /* display: block; */
+  top: 15%;
+  left:3.1%;
+  color: white;
+  /* font-weight: 600; */
+  /* text-align: left; */
+  font-size: 1.2em;
+  font-family: 'Open Sans', 'sans-serif';
+  /* text-transform: uppercase; */
+  /* left: 83%; */
+}
+
+#state-text {
+  position: absolute;
+  /* display: block; */
+  top: 15%;
+  left:20.4%;
+  color: white;
+  /* font-weight: 600; */
+  /* text-align: left; */
+  font-size: 1.2em;
+  font-family: 'Open Sans', 'sans-serif';
+  /* text-transform: uppercase; */
+  /* left: 83%; */
+}
+
+#city-text {
+  position: absolute;
+  /* display: block; */
+  top: 15%;
+  left:2.1%;
+  color: white;
+  /* font-weight: 600; */
+  /* text-align: left; */
+  font-size: 1.2em;
+  font-family: 'Open Sans', 'sans-serif';
+  /* text-transform: uppercase; */
+  /* left: 83%; */
+}
